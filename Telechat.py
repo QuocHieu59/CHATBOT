@@ -41,7 +41,7 @@ def query_database(product_id, attribute):
     product = collection.find_one({"code": product_id})
     
     if not product:
-        Prompt = Prompt + ". " +  f"NotShop currently has no products with the code #{product_id}."
+        Prompt = Prompt + ". " +  f"Note Shop currently has no products with the code #{product_id}."
         return
     
     # Trả về thuộc tính được yêu cầu

@@ -3,3 +3,8 @@ nest-asyncio
 spacy
 pymongo
 openai
+langchain-text-splitters
+nltk
+langchain-chroma
+langchain-openai
+langchain_community tiktoken langchainhub chromadb langchain

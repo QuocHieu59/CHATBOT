@@ -111,8 +111,7 @@ async def generate_response(user_input: str) -> str:
     page_contents = [doc.page_content for doc in docs]
     formatted_page_contents = "\n".join(page_contents)
     
-    Prompt = f"You are a fine art wood sales consultant. 
-    Answer the user question based on this context:\n{formatted_page_contents}"
+    Prompt = f"You are a fine art wood sales consultant. Answer the user question based on this context:\n{formatted_page_contents}"
 
     
     # Gửi yêu cầu tới mô hình AI

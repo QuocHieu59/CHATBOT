@@ -7,7 +7,8 @@ Welcome to the Chatbot LLM project!
 - **Model**: Llama 3.2 3B .
 - **Fine-tuning**: Customizes the LLM to suit specific industries or applications.
 - **Server**: t.me/Salewood_bot (API Telegram)
-- **Dataset**: https://huggingface.co/datasets/Quoc59/QA-wood-products
+- **Dataset train**: https://huggingface.co/datasets/Quoc59/QA-wood-products
+- **Dataset eval**: https://huggingface.co/datasets/Quoc59/Eval_QA_Wood
 - **Model after finetune**: https://huggingface.co/Quoc59/llama-3.2-3b-ChatBot-woodproduct
 - **Model Quantization (4 bit)**: https://huggingface.co/Quoc59/llama-3.2-3b-ChatBot-woodproduct-Q4_K_M-GGUF
 
@@ -18,7 +19,7 @@ Welcome to the Chatbot LLM project!
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/QuocHieu59/CHATBOT/tree/main
    ```
 
 2. **Install dependencies**:
@@ -26,6 +27,8 @@ Welcome to the Chatbot LLM project!
    ```bash
    pip install -r requirements.txt
    ```
+
+3. **Install LM Studio app**: add model from Huggingface to LM studio. Then run model.
 
 ---
 
@@ -47,10 +50,15 @@ Welcome to the Chatbot LLM project!
 
 ## Fine-tuning
 
-1. **Prepare dataset**
+1. **Prepare dataset**: https://huggingface.co/datasets/Quoc59/QA-wood-products
 
 2. **Fine-tune the model**: Use Kaggle (Finetune_llama-3-2-3b.ipynp)
 
 3. **Quantization**: Use HuggingFace API (merging-and-exporting.ipynp)
 
 ---
+
+## Eval Chatbot
+
+1. **dataset**: https://huggingface.co/datasets/Quoc59/Eval_QA_Wood
+2. **Eval**: Use Kaggle (eval-chatbot.ipynp)
